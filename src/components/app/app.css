@@ -1,0 +1,22 @@
+.wrapper{
+    margin: auto;
+    width: 1200px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+@media screen and (max-width:1200px){
+    .wrapper{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:578px){
+    .wrapper{
+        background-color: red;
+    }
+}
